@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:mw-be}/prisma/dev.db",
+            "name": "mw-asmnt"
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
